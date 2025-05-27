@@ -1,0 +1,48 @@
+<html>
+	<head>
+		<style>
+			#img1{
+				//width:100%;
+				//height:10%;
+				//font-size:5em;
+				//color:red;
+				//text-align:center;
+			}
+		</style>
+
+		<script>
+
+			function f_10()
+			{
+				document.getElementById('img1').src='10.png';
+			}
+			function f_11()
+			{
+				document.getElementById('img1').src='11.png';
+			}
+			function f_12()
+			{
+				document.getElementById('img1').src='12.png';
+			}
+			function f_13()
+			{
+				document.getElementById('img1').src='13.png';
+			}
+			function f_cl()
+			{
+				document.getElementById('img1').src=' ';
+			}
+		</script>
+	</head>
+
+	<body>
+		<h1> 그림 확대 </h1>
+		<img src='10_key.png' onclick='f_10();'>
+		<img src='11_key.png' onclick='f_11();'>
+		<img src='12_key.png' onclick='f_12();'>
+		<img src='13_key.png' onclick='f_13();'>
+		<button onclick='f_cl();'>CL</button>
+
+		<br><br><br><br><img id='img1'>
+	</body>
+</html>
